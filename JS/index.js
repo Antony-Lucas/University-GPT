@@ -20,7 +20,7 @@ function sendQuestionToAI(){
         headers:{
             Accept: "application/json",
             "Content-Type":"application/json",
-            Authorization: "Bearer " + api_key
+            Authorization: "Bearer " + "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"
         },
         body: JSON.stringify({
             model: "text-davinci-003",
